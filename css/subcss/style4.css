@@ -1,0 +1,470 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    background:lightcyan(5, 52, , 0.863);
+}
+header{
+   /* background-color: rgba(58, 52, 52, 0.863);*/
+  overflow: hidden;
+   background-color: #333;
+    height: 80px;
+    width: 100%; 
+   
+  position: fixed; 
+  top: 0; 
+  
+} 
+
+#logo{
+    width: 20%;
+    height: 80px;
+    float: left;
+    color: white;
+}
+
+#logo > img{
+    width: 80%;
+    height: 78px;
+    padding: 1px;
+}
+
+#logo_name{
+    text-decoration: none;
+    font-size: 2em;
+    font-family: serif;
+    color: white;
+    padding: 15px;
+    display: block;
+    margin-top: 5px;
+    
+}
+
+#link{
+    width: 80%;
+    height: 30px;
+    float: left;
+}
+ #link > ul {
+     list-style: none;
+     margin-right: 20px;
+     padding-top: 22.5px;
+ }
+
+ #link > ul > li {
+
+    float: right;
+    margin-left: 30px;
+    line-height: 30px;
+   
+ }
+
+ #link > ul >li > a{
+     text-decoration: none;
+     color: #fff;
+     font-weight: bold;
+     display: block;
+    
+ }
+ #link > ul >li > a:hover {
+    background: #ddd;
+    color: black;
+  }
+  #link > ul >li:hover {
+     background: #ddd;
+     color: black;
+   }
+
+ #search form input{
+    width: 25%;
+    height: 30px;
+    padding-left: 2%;
+    outline: none;
+    border-width: 0em;
+    border-radius: 5px;
+    
+ }
+
+ #search_btn{
+     border-width: 0px ;
+     width: 5%;
+     height: 30px;
+     background-color: rgb(105, 101, 101)  ;
+     color: #fff;
+     font-weight: bold;
+     border-radius: 5px;
+ }
+ #cart_btn{
+     border-width: 0px ;
+     width: 5%;
+     height: 30px;
+     background-color: rgb(105, 101, 101)  ;
+     color: #fff;
+     font-weight: bold;
+     border-radius: 5px;
+ }
+
+ nav{
+    margin-top: 80px;
+     width: 100%;
+     height: 40px;
+     background: gray;
+     overflow: hidden;
+ 
+ }
+
+ nav > ul {
+     list-style: none;
+ }
+ nav > ul > li {
+    display: block;
+    padding-left: 1%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+   
+ }
+
+ nav > ul > li > a{
+     text-decoration: none;
+     color:white;
+     font-size: 15px ;
+     display: block;
+ }
+
+ nav > ul >li >a:hover{
+    background: rgba(58, 52, 52, 0.863);
+    
+ 
+ }
+ nav > ul >li:hover{
+    background: lightgreen
+ 
+ }
+
+ nav li ul {
+    display: none ;
+
+}
+nav li:hover ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: limegreen;
+    width: 200px;
+    z-index: 99;
+}
+
+nav  li ul li {
+    float: none;
+
+}
+ #bodyleft{
+     width: 72%;
+    /* height: 500px;*/
+     background: lightgray;
+     margin:1%;
+    float: left;
+    border-radius: 3px;
+    padding: 1%;
+    box-sizing: border-box;
+         
+ }
+ #bodyleft > h2 {
+     background: lightgreen;
+     height: 35px;
+     text-align: center;
+     color: white;
+     line-height: 30px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
+ }
+ #bodyleft > h3 {
+     background: lightgreen;
+     height: 35px;
+     text-align: center;
+     color: white;
+     line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
+ }
+
+ #bodyleft >ul >li >a{
+    text-decoration: none;
+    display: block;
+
+}
+#pro_btn_choice{
+    width: 23%;
+    height: 21px;
+    border-radius: 4px;
+    border: ridge 1px;
+
+}
+#pro_btn_choice:hover{
+    background: lightgreen;
+    
+}
+#pro_btn_choice:hover >a{
+   text-decoration: none;
+   color: white;
+}
+#pro_btn_choice >a{
+   text-decoration: none;
+   
+}
+#bodyleft >ul >li >a>img{
+width: 100%;
+height:260px;
+margin-bottom: 5px;
+
+
+}
+#bodyleft >ul >li >a >h4{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    overflow: hidden;/*عشان الاسم الكبير ما ينزل سطر*/
+    white-space: nowrap;
+    text-overflow: ellipsis;/* ...بتضيف */
+}
+
+ #bodyleft >ul> h3 {
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+}
+
+ #bodyleft > ul{
+     list-style-type: none;
+
+ }
+
+ #bodyleft >ul >li{
+    height: 310px;
+    width: 31%;
+    border: 2px ridge;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    border-radius: 5px;
+ }
+ #bodyright{
+    width: 25%;
+   /* height: 500px;*/
+    background: lightgray;
+    margin:1% 1% 1% 0%;
+    float: left;
+    border-radius: 3px;
+    padding: 1%;
+    box-sizing: border-box;
+}
+#pro_img{
+    width: 40%;
+   /* height: 500px;*/
+   /* background: lightsteelblue;*/
+    float: left;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#pro_descreption > h3{
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+   box-sizing: border-box;
+   
+
+}
+
+#pro_img > img{
+    width: 100%;
+    height: 450px;
+    border-radius: 6px;
+    
+}
+#pro_img > img:hover{    
+    box-shadow: 0 0 4px 4px black;
+
+}
+
+
+#pro_img > img > ul{
+    list-style-type: none;
+   
+}
+#pro_img > ul >li{
+    float: left;
+   
+}
+#pro_img  > ul >li>img{
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+#pro_img  > ul >li> img:hover{
+    box-shadow: 0 0 4px 4px black;
+}
+#pro_size p{
+    padding: 15px;
+}
+
+#pro_descreption{
+    width: 60%;
+   /* height: 300px;*/
+    /*background: red;*/
+    float: left;
+    max-height: 500px;
+    
+}
+#pro_price{
+    padding: 3%;
+}
+
+#sim_pro{
+    
+    width: 100%;
+    padding-bottom: 1px;
+    height: 290px;
+    background: linen;
+}
+
+#sim_pro > ul {
+    list-style-type:none;
+    
+}
+#sim_pro > ul >li> a>img {
+    width: 175px;
+    height: 200px;
+    
+}
+#sim_pro > ul >li {
+  float: left;
+  padding: .5%;
+  margin-left: 25px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border:  1px solid gray;
+  width: 175px;
+  text-align: center;
+  font-size: 14px;
+  overflow: hidden;/*عشان الاسم الكبير ما ينزل سطر*/
+  white-space: nowrap;
+  text-overflow: ellipsis;/* ...بتضيف */
+  box-shadow: 1px 1px 1px black;
+}
+#sim_pro > ul >li >a{
+ text-decoration: none;
+}
+
+#sim_pro > ul >li:hover{
+    border:  1px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+
+   
+#sim_pro > h3 {
+
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+   box-sizing: border-box;
+  
+
+}
+
+#pro_price > center> form > h4{
+    padding: 20px;
+}
+#pro_price > center> form > button {
+    width: 180px;
+    height: 35px;
+    border-radius: 4px;
+    border: ridge 1px;
+    margin-top: 10px;
+}
+#pro_price > center> form > button:hover {
+   background: lightgreen;
+}
+#slider{
+    width: 100%;
+    height: 300px;
+}
+#slider > img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+
+#bodyright > h3 {
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+}
+
+footer{
+    width: 100%;
+    height: 35px;
+    background: gray;
+}
+
+footer > h4{
+    text-align: center;
+    color: white;
+}

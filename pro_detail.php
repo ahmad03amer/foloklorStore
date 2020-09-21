@@ -1,0 +1,22 @@
+
+<html>
+
+    <head>
+        <title>Foloklor Store</title>
+        <link rel="stylesheet" href="css/style14.css">
+    </head>
+
+    <body>
+            <?php
+                include("inc/function.php");
+                include("inc/header.php");
+                include("inc/navbar.php");
+                echo pro_details();
+                include("inc/footer.php");
+               
+                
+            ?>
+        
+    </body>
+   
+</html>

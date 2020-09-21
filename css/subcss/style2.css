@@ -1,0 +1,238 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    background:lightcyan(5, 52, , 0.863);
+}
+header{
+    background-color: rgba(58, 52, 52, 0.863);
+    height: 80px;
+    width: 100%; 
+} 
+
+#logo{
+    width: 20%;
+    height: 80px;
+    float: left;
+    color: white;
+}
+
+#logo > img{
+    width: 80%;
+    height: 78px;
+    padding: 1px;
+}
+
+#logo > h1{
+    padding-top: 17.5px;
+}
+
+#link{
+    width: 80%;
+    height: 30px;
+    float: left;
+}
+ #link > ul {
+     list-style: none;
+     margin-right: 20px;
+     padding-top: 22.5px;
+ }
+
+ #link > ul > li {
+
+    float: right;
+    margin-left: 30px;
+    line-height: 30px;
+ }
+
+ #link > ul >li > a{
+     text-decoration: none;
+     color: #fff;
+     font-weight: bold;
+     display: block;
+ }
+
+ #search form input{
+    width: 25%;
+    height: 30px;
+    padding-left: 2%;
+    outline: none;
+    border-width: 0em;
+    border-radius: 5px;
+    
+ }
+
+ #search_btn{
+     border-width: 0px ;
+     width: 5%;
+     height: 30px;
+     background-color: rgb(105, 101, 101)  ;
+     color: #fff;
+     font-weight: bold;
+     border-radius: 5px;
+ }
+ #cart_btn{
+     border-width: 0px ;
+     width: 5%;
+     height: 30px;
+     background-color: rgb(105, 101, 101)  ;
+     color: #fff;
+     font-weight: bold;
+     border-radius: 5px;
+ }
+
+ nav{
+     width: 100%;
+     height: 40px;
+     background: gray;
+     overflow: hidden;
+ }
+
+ nav > ul {
+     list-style: none;
+ }
+ nav > ul > li {
+ display: block;
+    
+    padding-left: 1%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+   
+ }
+
+ nav > ul > li > a{
+     text-decoration: none;
+     color:white;
+     font-size: 15px ;
+     display: block;
+ }
+
+ nav > ul >li :hover{
+    background: rgba(58, 52, 52, 0.863);
+ 
+ }
+
+ #bodyleft{
+     width: 72%;
+    /* height: 500px;*/
+     background: lightgray;
+     margin:1%;
+    float: left;
+    border-radius: 3px;
+    padding: 1%;
+    box-sizing: border-box;
+         
+ }
+ #bodyleft > h2 {
+     background: lightgreen;
+     height: 35px;
+     text-align: center;
+     color: white;
+     line-height: 30px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
+ }
+ #bodyleft > h3 {
+     background: lightgreen;
+     height: 35px;
+     text-align: center;
+     color: white;
+     line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
+ }
+
+ #bodyleft >ul> h3 {
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+}
+
+ #bodyleft > ul{
+     list-style-type: none;
+
+ }
+
+ #bodyleft >ul >li{
+    height: 300px;
+    width: 31%;
+    border: 2px ridge;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    border-radius: 5px;
+ }
+ #bodyright{
+    width: 25%;
+    height: 500px;
+    background: lightgray;
+    margin:1% 1% 1% 0%;
+    float: left;
+    border-radius: 3px;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#slider{
+    width: 100%;
+    height: 300px;
+}
+#slider > img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+
+#bodyright > h3 {
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+}
+
+footer{
+    width: 100%;
+    height: 35px;
+    background: gray;
+}
+
+footer > h4{
+    text-align: center;
+    color: white;
+}

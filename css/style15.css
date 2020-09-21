@@ -1,0 +1,1117 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    background:lightcyan(5, 52, , 0.863);
+}
+header{
+   /* background-color: rgba(58, 52, 52, 0.863);*/
+
+   background-color: #333;
+    height: 80px;
+    width: 100%; 
+   
+  position: fixed; 
+  top: 0; 
+  
+} 
+
+#logo{
+    width: 20%;
+    height: 80px;
+    float: left;
+    color: white;
+}
+
+#logo > img{
+    width: 80%;
+    height: 78px;
+    padding: 1px;
+}
+
+#logo_name{
+    text-decoration: none;
+    font-size: 2em;
+    font-family: serif;
+    color: white;
+    padding: 15px;
+    display: block;
+    margin-top: 5px;
+    
+}
+
+#link{
+    width: 80%;
+    height: 30px;
+    float: left;
+}
+ #link > ul {
+     list-style: none;
+     margin-right: 20px;
+     padding-top: 22.5px;
+ }
+
+ #link > ul > li {
+
+    float: right;
+    margin-left: 30px;
+    line-height: 30px;
+ }
+
+ #link > ul >li > a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+   
+}
+ #link > ul >li > a:hover {
+    background: lightgreen;
+    color: black;
+    height: 100%;
+  }
+  #link > ul >li:hover {
+     background: #ddd;
+     color: black;
+     border-top: 3px solid black;
+   
+   }
+
+ #search form input{
+    width: 25%;
+    height: 30px;
+    padding-left: 2%;
+    outline: none;
+    border-width: 0em;
+    border-radius: 5px;
+    
+ }
+
+ #search_btn{
+     border-width: 0px ;
+     width: 5%;
+     height: 30px;
+     background-color: rgb(105, 101, 101)  ;
+     color: #fff;
+     font-weight: bold;
+     border-radius: 5px;
+ }
+
+ #cart_btn{
+     border-width: 0px ;
+     width: 5%;
+     height: 30px;
+     background-color: rgb(105, 101, 101)  ;
+     color: #fff;
+     font-weight: bold;
+     border-radius: 5px;
+ }
+ #cart_btn > a{
+     text-decoration: none;
+     display: block;
+     color: white;
+ }
+
+ .cart{
+     width:100%;
+     padding: 1%;
+     box-sizing: border-box;
+     background: lightgray;
+     min-height: 480px;
+ }
+
+ .cart form table{
+    width:100%;
+ }
+ .cart form table tr  {
+      margin-left: 80px;
+ }
+ .cart form table tr td {
+    height: 60px;
+    padding: 1%;
+ }
+ .cart form table tr th {
+    height: 60px;
+    background: lightgreen;
+
+ }
+ .cart form table tr td img {
+    height: 50px;
+    width: 50px;
+
+ }
+ .cart form table tr td input[type=text] {
+    height: 30px;
+    width: 10%;
+
+ }
+ .cart form table tr td input[type=submit] {
+    height: 30px;
+    width: 20%;
+    font-size: 15px;
+    border: ridge 2px solid black;
+    border-radius: 4px;
+
+ }
+ .cart form table tr td input[type=submit]:hover {
+    color: black;
+    background: lightgreen;
+    cursor: pointer;
+ }
+ nav{
+    margin-top: 80px;
+     width: 100%;
+     height: 40px;
+     background: gray;
+    
+ }
+
+ nav > ul {
+     list-style-type: none;
+    display: block;
+ }
+ nav > ul > li {
+    padding-left: 1%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: block;
+
+ }
+
+ nav > ul > li > a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px ;
+    height: 20px;
+}
+
+
+nav > ul >li:hover{
+    background-color: lightgreen;
+    color: black;
+    border-top: 3px solid black;
+    margin-top: 10px;
+    margin-top: 8px;
+ }
+
+ nav li ul {
+    display: none !important;
+    
+    list-style-type: none;
+
+}
+
+nav li:hover ul {
+    display: block !important;
+    z-index: 999;
+    position: absolute;
+    background-color: grey;
+    width: 180px;
+    margin-top: 15px;
+    margin-left: -14px;
+    box-shadow: 4px 4px 4px lightgreen;
+    margin-top: -0px;
+    overflow: hidden;
+}
+
+ nav  li ul li {
+    float: none;
+    padding: .2%;
+    
+    border-top: 1px solid black;
+}
+nav li > ul > li > a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px ;
+    display: block;
+    padding: 1%;
+    margin: 5px;
+    line-height: 25px;
+}
+
+ nav li> ul >li >a:hover{
+    background: lightgreen;
+    color: black;
+    display: block;
+ }
+
+ #bodyleft{
+     width: 72%;
+    /* height: 500px;*/
+     background: white);
+     margin:1%;
+    float: left;
+    border-radius: 3px;
+    padding: 1%;
+    box-sizing: border-box;
+         
+ }
+ #bodyleft > h2 {
+     background: lightgreen;
+     height: 35px;
+     text-align: center;
+     color: white;
+     line-height: 30px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
+ }
+ #bodyleft > h3 {
+     background: lightgreen;
+     height: 35px;
+     text-align: center;
+     color: white;
+     line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
+ }
+
+ #bodyleft >ul >li >a{
+    text-decoration: none;
+    display: block;
+
+}
+#pro_btn_choice{
+    width: 23%;
+    height: 21px;
+    border-radius: 4px;
+    border: ridge 1px;
+
+}
+#pro_btn_choice:hover{
+    background: lightgreen;
+    
+}
+#pro_btn_choice:hover >a{
+   text-decoration: none;
+   color: white;
+}
+#pro_btn >a{
+   text-decoration: none;
+   
+}
+#bodyleft >ul >li >a>img{
+width: 100%;
+height:260px;
+margin-bottom: 5px;
+
+
+}
+#bodyleft >ul >li >form >a>img{
+width: 100%;
+height:260px;
+margin-bottom: 5px;
+
+
+}
+#bodyleft >ul >li >a >h4{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    overflow: hidden;/*عشان الاسم الكبير ما ينزل سطر*/
+    white-space: nowrap;
+    text-overflow: ellipsis;/* ...بتضيف */
+}
+#bodyleft >ul >li>form > a >h4{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    overflow: hidden;/*عشان الاسم الكبير ما ينزل سطر*/
+    white-space: nowrap;
+    text-overflow: ellipsis;/* ...بتضيف */
+}
+#bodyleft >ul >li>form >a >h4{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    overflow: hidden;/*عشان الاسم الكبير ما ينزل سطر*/
+    white-space: nowrap;
+    text-overflow: ellipsis;/* ...بتضيف */
+}
+
+ #bodyleft >ul> h3 {
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+}
+
+ #bodyleft > ul{
+     list-style-type: none;
+
+ }
+
+ #bodyleft >ul >li{
+    height: 310px;
+    width: 31%;
+    border: 2px ridge;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    border-radius: 5px;
+ }
+ #bodyright{
+    width: 25%;
+    height: 1000px;
+    background: white;
+    margin:1% 1% 1% 0%;
+    float: left;
+    border-radius: 3px;
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 500px;
+}
+#pro_img{
+    width: 40%;
+   /* height: 500px;*/
+   /* background: lightsteelblue;*/
+    float: left;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#pro_descreption > h3{
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+   box-sizing: border-box;
+   
+
+}
+#bodyright >ul > h4{
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+   box-sizing: border-box;
+   
+
+}
+#bodyright_title{
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+   box-sizing: border-box;
+}
+
+#pro_img > img{
+    width: 100%;
+    height: 450px;
+    border-radius: 6px;
+    
+}
+#pro_img > img:hover{    
+    box-shadow: 0 0 4px 4px black;
+
+}
+
+
+#pro_img > img > ul{
+    list-style-type: none;
+   
+}
+#pro_img > ul >li{
+    float: left;
+   
+}
+#pro_img  > ul >li>img{
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+#pro_img  > ul >li> img:hover{
+    box-shadow: 0 0 4px 4px black;
+}
+#pro_size p{
+    padding: 15px;
+}
+
+#pro_descreption{
+    width: 60%;
+   /* height: 300px;*/
+    /*background: red;*/
+    float: left;
+    max-height: 500px;
+    
+}
+#pro_price{
+    padding: 3%;
+}
+
+#sim_pro{
+    width: 100%;
+    padding-bottom: 1px;
+    height: 350px;
+    background: white;
+}
+
+#sim_pro > ul {
+    list-style-type:none;
+    
+}
+#sim_pro > ul >li> a>img {
+    width: 175px;
+    height: 200px;
+    
+}
+#sim_pro > ul >li {
+  float: left;
+  padding: .5%;
+  margin-left: 25px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border:  1px solid gray;
+  width: 175px;
+  text-align: center;
+  font-size: 14px;
+  overflow: hidden;/*عشان الاسم الكبير ما ينزل سطر*/
+  white-space: nowrap;
+  text-overflow: ellipsis;/* ...بتضيف */
+  box-shadow: 1px 1px 1px black;
+}
+#sim_pro > ul >li >a{
+ text-decoration: none;
+}
+
+#sim_pro > ul >li:hover{
+    border:  1px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+
+   
+#sim_pro > h3 {
+
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;/*عشان اخلي الكتابة بنص الصندوق*/
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+   box-sizing: border-box;
+  
+
+}
+
+#pro_price > center> form > h4{
+    padding: 20px;
+}
+#pro_price > center> form > button {
+    width: 180px;
+    height: 35px;
+    border-radius: 4px;
+    border: ridge 1px;
+    margin-top: 10px;
+}
+#pro_price > center> form > button:hover {
+   background: lightgreen;
+}
+#slider{
+    width: 100%;
+    height: 300px;
+}
+#slider > img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+
+#bodyright > h3 {
+    background: lightgreen;
+    height: 35px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   box-shadow: 3px 3px 3px black;
+   text-shadow: 2px 2px 2px black;
+}
+
+footer{
+    width: 100%;
+    height: 35px;
+    background: gray;
+}
+
+footer > h4{
+    text-align: center;
+    color: white;
+  
+}
+
+.bodyright > ul {
+    list-style-type: none;
+    
+
+}
+.bodyright > ul >li {
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    padding-left: 2%;
+    border: ridge;
+    margin-top: 10px;
+}
+.bodyright > ul >li:hover {
+  box-shadow: 2px 2px 2px limegreen;
+
+}
+.bodyright > ul >li >a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: 14px;
+}
+.bodyright > ul >li >a:hover{
+  text-decoration: underline;
+  color: limegreen;
+}
+.cart_btns{
+    height: 40px;
+    width: 160px;
+    padding: 1%; 
+    display: block;
+    margin: 5px;
+    color: black;
+    border-radius: 4px;
+}
+.cart_btns a{
+    text-decoration: none;
+}
+.cart_btns:hover {
+    
+    color: black;
+    background:lightgreen;
+
+}
+
+
+.contact-info{
+    display: flex;
+     width: 100%;
+     max-width: 1200px;
+     align-items: center;
+     justify-content: right;
+      padding: 0 20px;
+     
+ }
+ .card{
+     background: #2f4542;
+     padding: 0 20px;
+     margin: 0 10px;
+     width: calc(33% -20px);
+     height: 200px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     cursor: pointer;
+     border-radius: 6px;
+     float: right;
+ }
+ 
+ .card-icon{
+     font-size: 28px;
+     background-color: #2f3542;
+     width: 60px;
+     height: 60px;
+     text-align: center;
+     line-height: 60px !important;
+     border-radius: 50%;
+     transition: 0.3s linear;
+ }
+ 
+ .card:hover .card-icon{
+     background: lightgreen;
+     transform: scale(1.6);
+ }
+ 
+ 
+ .card p{
+     margin-top: 20px;
+     font-weight: 300;
+     letter-spacing: 2px;max-height: 0;
+     opacity: 0;
+     transition: 0.3s linear;
+ }
+ 
+ .card:hover p{
+     max-height: 40px;
+     opacity: 1;
+ }
+ 
+ 
+ .column {
+     float: left;
+     width: 33.3%;
+     margin-bottom: 16px;
+     padding: 0 8px;
+   }
+   
+  .project-details{
+      padding: 3%;
+      height: 600px;
+  }
+
+  
+ .card-me{
+    background: #2f4542;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% -20px);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    float: right;
+}
+.card-me > img{
+    margin-top: -90px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.container-me{
+    font-size: 12px;
+    margin-top: 20px;
+     background-color: #2f3542;
+     width: 160px;
+     height: 40px;
+     text-align: center;
+     line-height: 20px !important;
+     border-radius: 5px;
+     transition: 0.3s linear;
+}
+.container-me h2{
+    font-size: 25px;
+  
+}
+.container-me button{
+    width: 50%;
+    height: 30px;
+    border-radius: 4px;
+  
+}
+.container-me button:hover{
+background: lightgreen;
+  
+}
+
+.container-me p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.container-me:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+
+/*registration page*/
+.link{
+     margin:40px 40px; padding:2%px;
+    text-align:center;
+    align-items:center;
+    background: white;
+    width:600px;
+}
+.link form{
+      box-sizing: border-box;
+      background: rgb(220, 248, 220);
+      width: 100%;
+      top: 30px; 
+      border:  1px solid black;
+      border-radius: 5px;
+      padding: 15px;
+    }
+    
+    .link > form >table > tbody {
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    .link > form >table > tbody >tr{
+        width: 100%;
+        height: 40px;
+        padding: 15px;
+        margin-top: 5px;
+    }
+    .link > form >table > tbody>tr>td {
+        width: 48%;
+        height: 50px;
+      
+    }
+    .link form >table{
+        width: 100%;
+    }
+    .link >  form center>input{
+        height: 35px;
+        border: 1px solid black;
+        width: 100px;
+        background: lightgrey;
+        color: black;
+        border-radius: 4px;
+        margin-top: 15px;
+        margin-left: 30px;
+       
+    } 
+     .link  form > center>input:hover{
+        background: lightgreen;
+        border-radius: 4px;
+        color: black;
+        cursor: pointer;
+    }
+    .link  form >table > tbody >tr >td>input{
+      
+        width: 48%;
+        height: 30px;
+   
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    .link  form >table > tbody>tr >td>textarea{
+        width: 48%;
+        height: 80px;
+       
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .link  form >table> tbody >tr{
+     margin-top: 10px;
+    }
+    .link  form >table > tbody >tr>td{
+     margin-top: 5px;
+    }
+
+    .link  form >table > tbody >tr>td>input{
+        width: 350px;
+   }
+
+   .link  form >table > tbody >tr>td>textarea{
+    width: 350px;
+}
+/*javascript click*/
+.button{
+    background: lightgrey;
+  
+    color: white;
+    width: 70px;
+    height: 27px;
+}
+
+.button:hover{
+    background-color: lightgreen;
+}
+.modal{
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     overflow: auto;
+    background: rgb(100, 94, 94);
+}
+.modal-content{
+    background-color: white;
+margin:20% auto;
+width: 70%;
+box-shadow: 0 5px 8px 0 black;
+animation-name:modalopen;
+animation-duration: 1s;
+}
+
+.closeBtn {
+    color: green;
+    float: right;
+    font-size: 30px;
+}
+.closeBtn:hover,.closeBtn:focus{
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+@keyframes modalopen{/*change the opacity from 0 to 1 in one sec*/
+    from{opacity: 0}
+    to {opacity: 1}
+}
+
+.modal-header{
+    background-color: lightgreen;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+.modal-header > h2{
+   padding: 10px;
+}
+.modal-footer{
+    background-color: lightgreen;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+.modal-footer >h3{
+padding: 10px;
+}
+
+.modal-body{
+    padding-left: 20px;
+}
+
+#simpleModal{
+   opacity: .95;
+}
+#modalBtn{
+    width: 100%;
+    color: red;
+}
+
+/*about css extra js */
+
+#content{
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    padding-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #444;
+    margin: 0 auto;
+    
+    height: 300px;
+    overflow: hidden;
+
+    /*set transition down*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+
+}
+
+
+#content.open{
+    height: 700px;
+    /*set transition up*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#show-more{
+    background: #1594e5;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    width: 140px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+/*ajax search sugesstion*/
+
+#search_result_container{ 
+    display: block;
+    background-color: rgb(105, 101, 101)  ;
+    max-height: 350px;
+    box-shadow: 4px 4px 4px lightgreen;
+    width:25%;
+    margin-left: 270px;
+    color: #fff;    
+    font-weight: bold;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+    overflow-y: scroll;
+   
+}
+
+#search_result_container > ul{
+    list-style-type: none;
+
+}
+#search_result_container > ul >li{
+    background-color: rgb(105, 101, 101)  ;
+    font-size: 12px;   
+}
+#search_result_container > ul >li:hover >#row_result{
+    background: lightgreen;
+    height: 40ox;
+    color: black;
+}
+
+#search_result_container > ul:hover >li{
+    background-color: rgb(105, 101, 101)  ;
+    font-size: 12px;    
+}
+
+#row_result{
+    width: 100%;
+    height: 40px;
+    border-bottom: thin solid lightgreen;
+    display: inline-block !important;
+    
+}
+
+#product_img{
+    width: 30%;
+    height: 40px;
+    float: left;
+}
+
+#product_img img{
+    height: 30px;
+    width: 40px;
+    border-radius: 2px;
+}
+
+#product_name{
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    overflow: hidden;/*عشان الاسم الكبير ما ينزل سطر*/
+    white-space: nowrap;
+    text-overflow: ellipsis;/* ...بتضيف */
+
+}
+
+#product_price{
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+
+.search_suggestion{
+    display: none;
+    width: 100px;
+    overflow: auto;
+  
+}
+
+/*check out*/
+
+ .cart{
+     width:100%;
+     padding: 1%;
+     box-sizing: border-box;
+     background: lightgray;
+     min-height: 480px;
+ }
+
+ .cart form table{
+    width:100%;
+ }
+ .cart form table tr  {
+      margin-left: 80px;
+ }
+ .cart form table tr td {
+    height: 60px;
+    padding: 1%;
+ }
+ .cart form table tr th {
+    height: 60px;
+    background: lightgreen;
+
+ }
+ .cart form table tr td img {
+    height: 50px;
+    width: 50px;
+
+ }
+ .cart form table tr td input[type=text] {
+    height: 30px;
+    width: 10%;
+
+ }
+ .cart form table tr td input[type=submit] {
+    height: 30px;
+    width: 20%;
+    font-size: 15px;
+    border: ridge 2px solid black;
+    border-radius: 4px;
+
+ }
+ .cart form table tr td input[type=submit]:hover {
+    color: black;
+    background: lightgreen;
+    cursor: pointer;
+ }
